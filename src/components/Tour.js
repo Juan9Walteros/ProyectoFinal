@@ -108,6 +108,16 @@ const Tour= () => {
             </div>
         </div>
         <div className="People">
+            <div className="inter3">
+                <div className="txt4">
+                    <div>
+                        
+                    </div>
+                </div>
+                <div className="card4">
+
+                </div>
+            </div>
 
         </div>
         </>

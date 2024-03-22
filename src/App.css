@@ -262,5 +262,25 @@ margin-top: -210px;
 }
 
 .People{
+height: 596px;
+background-color: #F7F8FC;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.inter3{
+  height: 356px;
+  width: 1103px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.txt4{
+height: 268px;
+width: 394px;
+}
+.card4{
 
 }
