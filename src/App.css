@@ -136,6 +136,7 @@ width: 165px;
 color: #FEFCFB;
 border: none;
 border-radius: 10px;
+font-weight: 500;
 }
 .thing{
   margin: 25px;
@@ -184,24 +185,28 @@ margin-top: -210px;
   margin: auto;
   height: 142px;
   width: 675px;
+  margin-bottom: 25px;
 }
 
 .txtE{
   font-size: 48px;
+  font-weight: 700;
 }
 .txtD{
   font-size: 18px;
   color: #666666;
 }
 
-.conCards{
-
+.col-6{
+  border-radius: 8px;
 }
 
 .card1{
   height: 426px;
   width: 270px;
   margin-left: 50px;
+  border-radius: 8px;
+  border: 2px solid #666666;
 }
 .textS{
   color: #999999;
@@ -212,4 +217,50 @@ margin-top: -210px;
   background-color: #FFE7DB;
   height: 28px;
   width: 52px;
+}
+.card3{
+  width: 370px;
+  height: 447px;
+  border-radius: 16px !important;
+}
+.txtE3{
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 700;
+}
+.txtD3{
+  font-size: 18px;
+  font-weight: 400;
+  color: #666666;
+}
+.bi-cursor-fill{
+  color: #FA7436;
+}
+.cardT1{
+  font-size: 24px !important;
+}
+
+.conCards{
+  margin-top: 50px;
+}
+.textT1{
+  color: #FA7436;
+  font-size: 24px;
+  font-weight: 600;
+}
+.Tour{
+  background-color: #FEFCFB;
+}
+.Palmas{
+  position: absolute;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
+.txtH{
+  font-weight: 700;
+}
+
+.People{
+
 }

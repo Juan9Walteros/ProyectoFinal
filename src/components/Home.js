@@ -9,7 +9,7 @@ const Home = () => {
             <div className="cajonpri d-flex">
                 <div className="textIz">
                     <div className="startd">
-                    <p>Get Started your exciting <span >journey </span>whith us.</p>
+                    <p className='txtH'>Get Started your exciting <span >journey </span>whith us.</p>
                     <div className='descrip'>
                         <p className='parr'>
                             A Team of experienced tourism professionals will provide 

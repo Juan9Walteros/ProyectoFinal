@@ -33,14 +33,14 @@ const Destination= () => {
                 <Slider {...settings}>
                     <div>
                     <Card className="card1">
-                        <Card.Img className="img-fluid" variant="top" src={Madrid} style={{width:'270px', height:'290px'}} alt="..."/>
+                        <Card.Img className="img-fluid" variant="top" src={Madrid} style={{width:'270px', height:'290px', borderRadius:'8px'}} alt="..."/>
                         <Card.Body>
                             <div className="container">
                                 <div className="row">
                                     <div className="col-6">
                                         <CardTitle>Madrid</CardTitle>
                                     </div>
-                                    <div className="col2 col-6">
+                                    <div className="col-6">
                                         <p className="card-text"><small className="text-body-secondary"><i class="bi bi-star-fill" style={{color:'#FA7436'}}></i> 4.8</small></p>
                                     </div>
                                     <div className="col-6">
