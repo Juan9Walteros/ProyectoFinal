@@ -9,7 +9,6 @@ import About from './components/About';
 import Blog from './components/Blog';
 import Destination from './components/Destination'
 import Tour from './components/Tour';
-import layouts from './layouts/navbar'
 import NavbarTravel from './layouts/navbar';
 
 

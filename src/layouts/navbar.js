@@ -9,7 +9,7 @@ const NavbarTravel= () => {
       <Container>
         <div>
         <Navbar.Brand href="#home">
-          <img src={Logo}></img>
+          <img src={Logo} alt="..."></img>
         </Navbar.Brand>
         </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
