@@ -4,7 +4,8 @@ import Col from 'react-bootstrap/Col';
 import imagen from '../img/Vector_1.png'; 
 import imagen1 from '../img/Vector_2.png';    
 import imagen2 from '../img/Group.png';    
-import imagen4 from '../img/Element_1.png';       
+import imagen4 from '../img/Element_1.png';     
+import React from "react";  
 
 function About() {
   return (

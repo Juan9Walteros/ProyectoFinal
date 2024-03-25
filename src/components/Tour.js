@@ -1,10 +1,11 @@
 import React from "react";
 import Slider from "react-slick";
 import { Card, CardBody, CardTitle } from "react-bootstrap";
-import Roma from '../img/rome.png'
-import London from '../img/london2.png'
-import Osaka from '../img/osaka.png'
-import Palmas from '../img/Plameras ne.png'
+import Roma from '../img/rome.png';
+import London from '../img/london2.png';
+import Osaka from '../img/osaka.png';
+import Palmas from '../img/Plameras ne.png';
+import Aviones from '../img/Aviones.png';
 
 const Tour= () => {
     var settings = {
@@ -12,6 +13,15 @@ const Tour= () => {
         infinite: true,
         speed: 500,
         slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed:3000,
+    };
+    var settings2 = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed:3000,
@@ -86,7 +96,7 @@ const Tour= () => {
                                 <div className="container">
                                     <div className="row">
                                         <div className="col-6">
-                                            <CardTitle className="cardT1">Osaka, Japan</CardTitle>
+                                            <CardTitle className="cardT1">Osaka,Japan</CardTitle>
                                         </div>
                                         <div className="col-6">
                                             <p className="textT1">$5,42k</p>
@@ -108,14 +118,44 @@ const Tour= () => {
             </div>
         </div>
         <div className="People">
+            <img className="aviones" src={Aviones} alt="..."/>
             <div className="inter3">
                 <div className="txt4">
-                    <div>
-                        
-                    </div>
-                </div>
-                <div className="card4">
+                <h1 className="txtE3">What people say <span>about us.</span></h1>
+                <p className="text-secondary">Our Clients send us bunch of smilies with our services and we love them.</p>
 
+                </div>
+                <div className="concard4">
+
+                    <Slider {...settings2}>
+                   
+                    <div>
+                        <Card className="card4">
+                            <CardBody>
+                                <div className="txt5">
+                                <p className="p1"> "On the Windows talking painted pasture yes its <br />express parties use. Sure last upon he same as<br />knew next. Of believed or diverted no."</p>
+                                </div>
+                                <div className="txt6">
+                                    <p className="p1"><b>Mike Taylor</b></p>
+                                    <p className="p2"> Lahore, Pakistan</p>
+                                </div>
+                            </CardBody>
+                        </Card>
+                    </div>
+                    <div>
+                        <Card className="card4">
+                            <CardBody>
+                                <div className="txt5">
+                                <p className="p1"> "On the Windows talking painted pasture yes its <br />express parties use. Sure last upon he same as<br />knew next. Of believed or diverted no."</p>
+                                </div>
+                                <div className="txt6">
+                                    <p className="p1"><b>Chris Thomas</b></p>
+                                    <p className="p2"> CEO of Red button</p>
+                                </div>
+                            </CardBody>
+                        </Card>
+                    </div>
+                    </Slider>
                 </div>
             </div>
 

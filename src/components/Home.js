@@ -1,6 +1,8 @@
 
+import React from "react";
 import Turista from '../img/Turista1.png'
 import { Dropdown } from 'react-bootstrap';
+import Footer from '../layouts/footer'
 
 const Home = () => {
     return(
@@ -73,6 +75,7 @@ const Home = () => {
             </div> 
             </div>
         </div>
+        <Footer/>
         </>
     )
 }
