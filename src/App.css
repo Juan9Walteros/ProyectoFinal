@@ -427,3 +427,45 @@ text-align: left;
   justify-content: space-between;
   width: 90%;
 }
+.suscribe{
+  height: 416px;
+  width: 1170px;
+  border-radius: 16px;
+  background-color: #FA7436;
+  position: absolute;
+  top: 750px;
+  left: 65px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.PrincipalCon{
+  height: 256px;
+}
+
+.titulo1{
+  color: #FFFFFF;
+  font-size: 48px;
+  font-weight: 700;
+  font-family: 'Volkhov',serif;
+}
+.emailIn{
+  height: 68px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+}
+
+.submit-button{
+  border-radius: 8px;
+  height: 50px;
+  width: 132px;
+  background-color: #FA7436;
+  border: none;
+  position: absolute;
+  left: 735px;
+  top: 210px;
+  color: #FFFFFF;
+}
+

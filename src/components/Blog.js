@@ -74,6 +74,18 @@ const Blog= () => {
                 </div>
             </div> 
         </div>
+        <div className="suscribe container">
+            <div className="PrincipalCon">
+                <div className="txtSuscribe">
+                    <h1 className="titulo1"> Suscribe and get exclusive <br />deals & offer</h1>
+                </div>
+                <form className="email">
+                    <input className="emailIn"type="email" placeholder="Enter your email"></input>
+                    <button className="submit-button" type="submit">Subscribe</button>
+                </form>
+                <div className="Circulo1"></div>
+            </div>
+        </div>
         <Footer/>
         </>
     )
