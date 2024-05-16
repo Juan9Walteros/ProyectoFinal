@@ -5,6 +5,7 @@ import Facebook from '../img/Facebook Icon.png'
 
 const Footer = () => {
     return(
+        <>
         <div className="principalFooter">
             <div className="interFooter">
                 <div className="redes">
@@ -54,6 +55,7 @@ const Footer = () => {
         <div><p className="text-secondary">Terms & Conditions</p></div>
         </div>
     </div>
+    </>
     )
 }
 export default Footer;

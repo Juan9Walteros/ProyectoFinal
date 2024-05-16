@@ -39,6 +39,8 @@
   }
 }
 
+/* Navbar */
+
 .navBg{
   background-color: #FEFCFB;
   height: 114px;
@@ -61,6 +63,7 @@
   border: none;
   margin-left: 32px;
 }
+/* NavBar */
 
 .home{
   height: 800px;

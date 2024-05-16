@@ -16,7 +16,6 @@ function About() {
         <Col xs={12} md={12}>
             <div className='thing align-items-center'>
             <h4 className='thing1 mb-0'>Things you need <span>to do</span> </h4>
-            
             </div>
             <div className='thing2'>
             <p>We ensure that you'll embark on a perfectly planned, <br/>safe vacation at a price you can afford.</p>
