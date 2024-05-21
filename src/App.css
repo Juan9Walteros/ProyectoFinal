@@ -68,6 +68,10 @@
 .home{
   height: 800px;
   background-color: #FEFCFB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .parr{
   height: 120px;
@@ -250,6 +254,7 @@ margin-top: -210px;
 
 .conCards{
   margin-top: 50px;
+  margin-left: calc(6%);
 }
 .textT1{
   color: #FA7436;
@@ -258,6 +263,7 @@ margin-top: -210px;
 }
 .Tour{
   background-color: #FEFCFB;
+
 }
 .Palmas{
   position: absolute;
@@ -339,6 +345,7 @@ text-align: left;
 }
 .seccion2{
   margin-top: 100px;
+  margin-left: calc(6%);
 }
 .card7{
   height: 388px;
